@@ -1,5 +1,6 @@
 pipeline {
 agent any
+stages {
 stage('CheckoutModule1') {
         steps {
             sh 'mkdir -p Module1'
@@ -10,4 +11,5 @@ stage('CheckoutModule1') {
             }
         }
     }
+}
 }
