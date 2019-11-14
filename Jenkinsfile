@@ -11,7 +11,7 @@ stage('CheckoutModule1') {
             }
         }
     }
-stage('CheckoutModule1') {
+stage('CheckoutModule2') {
         steps {
             sh 'mkdir -p Module1'
             dir("Module2")
